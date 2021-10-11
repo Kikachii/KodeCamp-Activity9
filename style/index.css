@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+    /* background: linear-gradient(rgba(212, 204, 202, 0.2),rgba(212, 204, 202, 0.2)), url(../images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg); */
+    background: url(../images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg);
+    background-position: 20px;
+    background-size: cover;   
+}
+.description{
+    position: absolute;
+    top: 20%;
+     margin: auto;
+}
+.social-icons{
+    position: absolute;
+    top: 50%;
+    left: 93%;
+    z-index: 1;
+    cursor: pointer;
+   
+}
+.social-icons img{
+    display: block;
+    margin: 0 auto 40px;
+
+}
+
+.shoes{
+    background-color: antiquewhite;
+}
+
+.shoe-image img{
+    width: 350px;
+    height: 300px;
+}
+
+.shoe-section{
+    display: flex;
+     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width:768px){
+    container, .container-md, .container-sm {
+        max-width: 720px;
+      
+    }
+}
+
+@media (max-width:660px){
+    .container, .container-md, .container-sm {
+        width: 80%;
+       
+    }
+    
+    .head{
+        background-position: 20%;
+        background-size:cover;   
+    }
+    .description{
+        top: 15%;
+       z-index: 5;
+    }
+    .ps-5 {
+        padding-left: 1.5rem!important;
+    }
+    .fs-1{
+        font-size: 2.0rem!important;
+    }
+    .fs-5{
+        font-size: 1.2rem!important;
+    }
+    .social-icons{
+        top: 60%;
+        left: 76%;   
+    }
+    .social-icons img{  
+        margin: 0 auto 30px;
+        z-index: 5;
+        
+    }
+    .shoe-image img{
+        width: 250px;
+        height: 200px;
+    }
+    .px-5 {
+        padding-right: 1.5rem!important;
+       
+    }
+  
+}
+  
+
