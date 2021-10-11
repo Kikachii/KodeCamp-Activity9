@@ -24,7 +24,6 @@
    
 }
 .social-icons img{
-    display: block;
     margin: 0 auto 40px;
 
 }
@@ -72,21 +71,24 @@
         font-size: 1.5rem!important;
     }
     .fs-5{
-        font-size: 1.2rem!important;
+        font-size: 1.0rem!important;
     }
     .social-icons{
-        top: 60%;
-        left: 76%;   
+        top: 75%; 
+        left: 0%;  
     }
     .social-icons img{  
-        margin: 0 auto 20px;
+        margin: 0 auto 10px;
         z-index: 5;
-        display: inline;
-        
+      
     }
     .shoe-image img{
         width: 250px;
         height: 200px;
+       
+    }
+    .px-4{
+        padding-right: 0.5rem!important;
     }
     .px-5 {
         padding-right: 1.5rem!important;
