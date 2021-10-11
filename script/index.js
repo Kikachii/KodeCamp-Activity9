@@ -84,10 +84,10 @@ shoes.forEach(e => {
                     <img src="./images/${e.shoe_image}.jpg" alt="" width="200px">
                 </div>
                 <div class="shoe-info">
-                    <h1>${e.name}</h1>
-                    <h3>${e.tag}: N${e.price}</h3>
-                    <button class="btn btn-secondary">View Details</button>
-                    <button class="btn btn-info">Make Order</button>
+                    <h1  class="pt-3 fs-2">${e.name}</h1>
+                    <h3 class="fs-3">${e.tag}: N${e.price}</h3>
+                    <button class="btn btn-secondary mt-2">View Details</button>
+                    <button class="btn btn-info mt-2">Make Order</button>
                 </div>
             </div>
     `
