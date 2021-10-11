@@ -79,8 +79,9 @@
         left: 76%;   
     }
     .social-icons img{  
-        margin: 0 auto 30px;
+        margin: 0 auto 20px;
         z-index: 5;
+        display: inline;
         
     }
     .shoe-image img{
